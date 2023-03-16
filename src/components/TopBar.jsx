@@ -16,7 +16,7 @@ const TopBar = () => {
             size={20}
             className="mr-2 text-[var(--primary-dark)]"
           />
-          <p className="text-sm text-gray-700">9AM - 5AM</p>
+          <p className="text-sm text-gray-700">9AM - 5PM</p>
         </div>
         <div className="hidden md:flex items-center px-6">
           <AiFillPhone size={20} className="mr-2 text-[var(--primary-dark)]" />
