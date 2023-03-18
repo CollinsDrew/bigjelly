@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import TopBar from "./components/TopBar";
 import Cards from "./components/Cards";
 import Gallery from "./components/Gallery";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Cards />
       <Gallery />
+      <Contact />
     </div>
   );
 }
