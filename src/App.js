@@ -5,6 +5,9 @@ import TopBar from "./components/TopBar";
 import Cards from "./components/Cards";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import BottomBar from "./components/BottomBar";
+import Equipment from "./components/Equipment";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       <Hero />
       <Cards />
       <Gallery />
+      <Equipment />
       <Contact />
+      <Footer />
+      <BottomBar />
     </div>
   );
 }

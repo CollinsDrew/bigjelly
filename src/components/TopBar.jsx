@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillPhone, AiOutlineClockCircle } from "react-icons/ai";
-import { BsChatSquareDots } from "react-icons/bs";
+
 import { GiMusicSpell } from "react-icons/gi";
 
 const TopBar = () => {
@@ -22,7 +22,9 @@ const TopBar = () => {
           <AiFillPhone size={20} className="mr-2 text-[var(--primary-dark)]" />
           <p className="text-sm text-gray-700">07811942726</p>
         </div>
-        <button>Get a Free Quote</button>
+        <a href="#bookings">
+          <button>Book A Session</button>
+        </a>
       </div>
     </div>
   );

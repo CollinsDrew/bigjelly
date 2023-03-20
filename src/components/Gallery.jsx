@@ -1,6 +1,6 @@
 import React from "react";
 import liveRoom from "../Assets/bjs_live_room.jpeg";
-import liveRoom2 from "../Assets/bjs_live_room_2.jpeg";
+// import liveRoom2 from "../Assets/bjs_live_room_2.jpeg";
 import liveRoom3 from "../Assets/bjs_live_room3.jpeg";
 import mixRoom from "../Assets/bjs_mix_room.jpeg";
 import mixRoom2 from "../Assets/bjs_mix_room_2.jpeg";
