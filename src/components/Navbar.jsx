@@ -26,9 +26,17 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="flex justify-between">
-        <FaFacebookF className="mx-4" />
-        <FaTwitter className="mx-4" />
-        <FaInstagram className="mx-4" />
+        <a href="https://www.facebook.com/BIGJELLYSTUDIOS">
+          <FaFacebookF className="mx-4" />
+        </a>
+
+        <a href="https://twitter.com/bigjellystudios?lang=en">
+          <FaTwitter className="mx-4" />
+        </a>
+
+        <a href="https://www.instagram.com/bigjellystudios/?hl=en">
+          <FaInstagram className="mx-4" />
+        </a>
       </div>
 
       {/* Hamburger Icon */}
