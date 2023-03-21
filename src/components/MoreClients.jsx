@@ -57,7 +57,7 @@ const data = [
     img: jolyon,
   },
   {
-    name: "Gwen",
+    name: "Gwen and The Good Thing",
     desc: "American singer-songwriter and actress",
     img: gwen,
   },
