@@ -11,7 +11,9 @@ const Equipment = () => {
   return (
     <Accordion id="equipment" className="w-full" allowMultiple>
       <div>
-        <h2 className="text-center text-gray-700 p-4">Equipment</h2>
+        <h2 className="text-center md:text-4xl pb-8 text-gray-700 p-4">
+          Equipment
+        </h2>
       </div>
       <AccordionItem className="border-b border-gray-200  dark:!border-white/10 ">
         <h2>

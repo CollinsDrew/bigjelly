@@ -2,7 +2,7 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="bg-gray-100 p-4 rounded-lg shadow-lg text-gray-700">
+    <div className="bg-gray-200 p-4 rounded-lg shadow-lg text-gray-700">
       <h2 className="text-xl font-bold mb-2">Big Jelly Studios</h2>
       <p className="text-gray-600 mb-2">
         67A Chapel Rd, St Lawrence, Ramsgate, Kent CT11 0BS, United Kingdom

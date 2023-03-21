@@ -53,7 +53,7 @@ const Navbar = () => {
         >
           <ul className="h-full w-full text-center pt-12">
             <li classname="text-2xl py-8">
-              <a href="/">Home</a>
+              <a href="home">Home</a>
             </li>
             <li classname="text-2xl py-8">
               <a href="#blog">Blog</a>

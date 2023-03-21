@@ -3,7 +3,7 @@ import banner from "../Assets/bj2_banner.jpeg";
 
 const Contact = () => {
   return (
-    <div id="bookings" className="max-w-[1140px] m-auto w-full p-4 py-16">
+    <div id="bookings" className="max-w-[1140px] m-auto w-full p-4 py-16 ">
       <h2 className="text-center text-gray-700">Rates</h2>
       <p className="text-center text-gray-700 py-2">
         Rates starting at £300 per 8hr Day / £40 ph (min 4hrs) 25%

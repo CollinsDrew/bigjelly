@@ -19,8 +19,8 @@ function App() {
       <Hero />
       <Cards />
       <Gallery />
-      <Equipment />
       <ClientList />
+      <Equipment />
       <Contact />
       <Location />
       <Footer />

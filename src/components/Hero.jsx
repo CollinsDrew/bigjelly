@@ -3,7 +3,7 @@ import bigJelly from "../Assets/bigjelly.jpeg";
 
 const Hero = () => {
   return (
-    <div id="/" className="w-full h-[90vh] ">
+    <div id="home" className="w-full h-[90vh] ">
       <img
         src={bigJelly}
         alt="bigJelly"
