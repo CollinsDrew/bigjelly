@@ -16,7 +16,7 @@ const Navbar = () => {
         </li>
 
         <li>
-          <a href="#clients">Client List</a>
+          <a href="#bookings">Client List</a>
         </li>
         <li>
           <a href="#equipment">Equipment</a>
@@ -55,11 +55,9 @@ const Navbar = () => {
             <li classname="text-2xl py-8">
               <a href="home">Home</a>
             </li>
+
             <li classname="text-2xl py-8">
-              <a href="#blog">Blog</a>
-            </li>
-            <li classname="text-2xl py-8">
-              <a href="#clients">Client List</a>
+              <a href="#clientList">Client List</a>
             </li>
             <li classname="text-2xl py-8">
               <a href="#equipment">Equipment</a>

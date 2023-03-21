@@ -1,5 +1,6 @@
 import React from "react";
 import banner from "../Assets/bj2_banner.jpeg";
+import contactImage from "../Assets/contactImage_bjs.jpeg";
 
 const Contact = () => {
   return (
@@ -17,7 +18,7 @@ const Contact = () => {
       </p>
       <div className="grid md:grid-cols-2">
         <img
-          src={banner}
+          src={contactImage}
           alt="/"
           className="w-full md:h-full object-cover p-2 max-h-[500px] h-[200px]"
         />

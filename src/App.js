@@ -10,6 +10,7 @@ import BottomBar from "./components/BottomBar";
 import Equipment from "./components/Equipment";
 import Location from "./components/Location";
 import ClientList from "./components/ClientList";
+import MoreClients from "./components/MoreClients";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Cards />
       <Gallery />
       <ClientList />
+      <MoreClients />
       <Equipment />
       <Contact />
       <Location />
