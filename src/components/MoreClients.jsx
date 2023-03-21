@@ -10,6 +10,59 @@ import mtWolf from "../Assets/mtWolf.jpeg";
 import jolyon from "../Assets/JolyonThomas.jpeg";
 import gwen from "../Assets/gwen.jpeg";
 
+const data = [
+  {
+    name: "The Magic Gang",
+    desc: "British four-piece band from Brighton.",
+    img: magicGang,
+  },
+  {
+    name: "Jimmy Somerville",
+    desc: "Scottish pop singer and songwriter.",
+    img: jimmy,
+  },
+  {
+    name: "Metronomy",
+    desc: "British electronic music group",
+    img: metronomy,
+  },
+  {
+    name: "Allo Darlin'",
+    desc: "Four-piece indie pop band based in London",
+    img: alloDarlin,
+  },
+  {
+    name: "Pip Blom",
+    desc: "Dutch indie band from Amsterdam",
+    img: pipBlom,
+  },
+  {
+    name: "Jessiva Lauren",
+    desc: "London-born pianist, keyboard player and composer",
+    img: jessicaLauren,
+  },
+  {
+    name: "Tusks",
+    desc: "English singer and electronic musician from London",
+    img: tusks,
+  },
+  {
+    name: "Mt Wolf",
+    desc: "An English dream pop outfit's atmospheric blend of chamber pop, folk, electronic, and R&B",
+    img: mtWolf,
+  },
+  {
+    name: "Jolyon Thomas",
+    desc: "English record producer, multi-instrumentalist, songwriter and mixer.",
+    img: jolyon,
+  },
+  {
+    name: "Gwen",
+    desc: "American singer-songwriter and actress",
+    img: gwen,
+  },
+];
+
 const MoreClients = () => {
   return (
     <div className="text-gray-700 pb-10">
@@ -17,127 +70,22 @@ const MoreClients = () => {
         Other notable artists we have had the pleasure of working with include:
       </h2>
       <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={magicGang}
-            alt="The Magic Gang"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">The Magic Gang</h2>
-            <p>British four-piece band from Brighton.</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={jimmy}
-            alt="Jimmy Somerville"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Jimmy Somerville</h2>
-            <p>Scottish pop singer and songwriter.</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={metronomy}
-            alt="Metronomy"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Metronomy</h2>
-            <p>British electronic music group</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={alloDarlin}
-            alt="Allo Darlin'"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Allo Darlin'</h2>
-            <p>Four-piece indie pop band based in London</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={pipBlom}
-            alt="Pip Blom"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Pip Blom</h2>
-            <p>Dutch indie band from Amsterdam</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={jessicaLauren}
-            alt="Jessica Lauren"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Jessiva Lauren</h2>
-            <p>London-born pianist, keyboard player and composer</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={tusks}
-            alt="Tusks"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Tusks</h2>
-            <p>English singer and electronic musician from London</p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={mtWolf}
-            alt="Mt Wolf"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Mt Wolf</h2>
-            <p>
-              An English dream pop outfit's atmospheric blend of chamber pop,
-              folk, electronic, and R&B
-            </p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={jolyon}
-            alt="Jolyon Thomas"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Jolyon Thomas</h2>
-            <p>
-              {" "}
-              English record producer, multi-instrumentalist, songwriter and
-              mixer.
-            </p>
-          </div>
-        </li>
-        <li className="bg-white rounded-md shadow-md p-6 flex items-center">
-          <img
-            src={gwen}
-            alt="Gwen and the Good thing"
-            className="w-24 h-24 object-cover rounded-full mr-6"
-          />
-          <div>
-            <h2 className="text-2xl font-bold">Gwen and The Good Thing</h2>
-            <p>
-              Gwen and the Good Thing are a Bedroom Pop group from Milton
-              Keynes.
-            </p>
-          </div>
-        </li>
-        {/* Add more li elements for each client */}
+        {data.map((client, index) => (
+          <li
+            className="bg-white rounded-md shadow-md p-6 flex items-center"
+            key={index}
+          >
+            <img
+              src={client.img}
+              alt={client.name}
+              className="w-24 h-24 object-cover rounded-full mr-6"
+            />
+            <div>
+              <h2 className="text-2xl font-bold">{client.name}</h2>
+              <p>{client.desc}</p>
+            </div>
+          </li>
+        ))}
       </ul>
     </div>
   );
